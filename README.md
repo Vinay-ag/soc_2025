@@ -2,11 +2,11 @@
 LLM From scratch
 # GPT Model Implementation: 4-Week Learning Journey
 
-This repository contains Jupyter notebooks (`week2.ipynb`, `week3.ipynb`, `week4.ipynb`) documenting a 4-week project to implement a GPT-like model from scratch using Python and PyTorch. Week 1 focused on Python basics (no practice files due to prior familiarity), while Weeks 2, 3, and 4 cover tokenization, attention mechanisms, and the full GPT architecture for text generation.
+This repository contains Jupyter notebooks (`soc_week_2.ipynb`, `soc_week_3.ipynb`, `soc_week_4.ipynb`) documenting a 4-week project to implement a GPT-like model from scratch using Python and PyTorch. Week 1 focused on Python basics (no practice files due to prior familiarity), while Weeks 2, 3, and 4 cover tokenization, attention mechanisms, and the full GPT architecture for text generation.
 
 ## Project Overview
 
-The goal is to build a GPT model for text generation, starting from text preprocessing to a complete transformer-based model. The notebooks cover tokenization (`week2.ipynb`), attention mechanisms (`week3.ipynb`), and the GPT model with text generation (`week4.ipynb`).
+The goal is to build a GPT model for text generation, starting from text preprocessing to a complete transformer-based model. The notebooks cover tokenization (`soc_week_2.ipynb`), attention mechanisms (`soc_week_3.ipynb`), and the GPT model with text generation (`soc_week_4.ipynb`).
 
 ## Weekly Breakdown
 
@@ -15,7 +15,7 @@ The goal is to build a GPT model for text generation, starting from text preproc
 - **Note**: No practice files were created due to prior familiarity with Python.
 
 ### Week 2: Tokenization and Data Preparation
-- **Notebook**: `week2.ipynb`
+- **Notebook**: `soc_week_2.ipynb`
 - **Concepts Implemented**:
   - **Text Preprocessing**: Loaded a 20,479-character short story ("The Verdict" by Edith Wharton) for tokenization.
   - **Tokenization**: Split text into tokens (words, punctuation) using regular expressions (`re.split`) to handle whitespace, commas, periods, and special characters (e.g., `--`, `?`, `"`).
@@ -33,7 +33,7 @@ The goal is to build a GPT model for text generation, starting from text preproc
 - **Outcome**: A robust pipeline for tokenizing text, handling unknown words, and preparing data for LLM training with embeddings.
 
 ### Week 3: Attention Mechanism Implementation
-- **Notebook**: `week3.ipynb`
+- **Notebook**: `soc_week_3.ipynb`
 - **Concepts Implemented**:
   - **Attention Mechanism**: Computes relevance scores between tokens using **query**, **key**, and **value** matrices to focus on important parts of the input sequence.
     - **Key, Query, Value Matrices**: Represent tokens as vectors to calculate attention scores. Queries and keys compute similarity, while values provide the output.
@@ -48,7 +48,7 @@ The goal is to build a GPT model for text generation, starting from text preproc
 - **Outcome**: A functional attention mechanism for processing token sequences, foundational for transformer models.
 
 ### Week 4: GPT Model Architecture and Text Generation
-- **Notebook**: `week4.ipynb`
+- **Notebook**: `soc_week_4.ipynb`
 - **Concepts Implemented**:
   - **GPT Architecture**: A transformer-based model with token and positional embeddings, transformer blocks, layer normalization, and a linear output head.
     - **Token & Positional Embeddings**: Convert token IDs to dense vectors and add positional information to capture sequence order.
